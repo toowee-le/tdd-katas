@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/romanToNumTest.js"
+    "test": "mocha ./test/bowlingTest.js"
   },
   "author": "Tuyet Le",
   "license": "ISC",
