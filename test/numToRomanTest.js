@@ -1,7 +1,7 @@
 const assert = require('chai').assert;
 const numToRoman = require('../roman_numerals/numToRoman');
 
-describe("Conver numbers to Roman Numerals", () => {
+describe("Convert numbers to Roman Numerals", () => {
     it("should return I when 1 is passed in", () => {
         assert.equal(numToRoman(1), "I");
     });
