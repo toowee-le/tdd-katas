@@ -14,6 +14,9 @@ describe("Conver numbers to Roman Numerals", () => {
     it("should return IV when 4 is passed in", () => {
         assert.equal(numToRoman(4), "IV");
     });
+    it("should return MCMLXXXIX when 1989 is passed in", () => {
+        assert.equal(numToRoman(1989), "MCMLXXXIX");
+    })
     it("should return MMXXV when 2025 is passed in", () => {
         assert.equal(numToRoman(2025), "MMXXV");
     });
